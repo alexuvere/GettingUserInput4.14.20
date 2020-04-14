@@ -1,0 +1,35 @@
+using System;
+
+namespace GettingUserInput4._14._20
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           //prints out a line of text
+            Console.WriteLine("Hello");
+
+            //prompt user for info 
+            Console.Write("Enter your name: ");
+            //wait for user to enter text
+
+            //store value user entered
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
+
+
+            //prompt user for info 
+            Console.Write("Enter your age: ");
+            //wait for user to enter text
+
+            //store value user entered
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " you are " + age);
+
+
+
+
+            Console.ReadLine();
+        }
+    }
+}
